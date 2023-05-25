@@ -1,0 +1,22 @@
+# Take a look at the test/specs.js file provided to you.
+# Deduce what the file is testing.
+
+isFive(num): Tests if the given num argument is the number 5 or not
+- Tests when the argument is 5, which should return true
+- Tests when the argument is a number but not 5, which should return false
+- Tests when the argument is a string, which should return false
+
+isOdd(num): Tests if the given num argument is odd or not
+- Tests when the argument is odd as well as odd and negative,
+  which should return true
+- Tests when the argument is even as well as even and negative,
+  which should return false
+- Tests when the argument is not of type Number, including string,
+  object, and array, which should throw an error
+
+myRange(min, max, step):Tests if the correct array is returned or not
+- Tests when a step argument is not provided, in which case the array
+  returned should default to a step of 1
+- Tests when a step argument is provided, in which case the array returned
+  should start from min and end at or below max inclusively with each
+  element having a difference of the step value from each other
