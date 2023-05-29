@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Patient's Safe Space - Contact Me</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div>
+                <h1>Contact Me</h1>
+            </div>
+        </header>
+
+        <!-- Menu Navigation Bar -->
+        <nav>
+            <a href="index.html">home</a>
+            <a href="practice.html">self-care practice</a>
+            <a href="resources.html">external resources</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <!-- Body Section -->
+        <p class="warning">
+            <strong>&#x26A0; This contact form doesn’t work at the moment, but feel free to email me at <a href= "mailto: &#106;&#097;&#099;&#107;&#105;&#101;&#099;&#104;&#097;&#110;&#109;&#097;&#107;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#106;&#097;&#099;&#107;&#105;&#101;&#099;&#104;&#097;&#110;&#109;&#097;&#107;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>.</strong>
+        </p>
+
+        <div class="center">
+            <form method="post">
+                <!-- action="/form-handling-url" -->
+                <fieldset>
+                    <legend>send a message</legend>
+
+                    <div>
+                        <label for="firstName" class="font-bold">First Name:</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="lastName" class="font-bold">Last Name:</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+
+                    <div>
+                        <label for="email" class="font-bold">Email:</label>
+                        <input type="email" id="email" name="email_address">
+                    </div>
+
+                    <p class="font-bold">How are you feeling?</p>
+                    <div class="stack">
+                        <div class="side-by-side">
+                            <div>
+                                <input type="checkbox" id="sad" name="sad" value="sad">
+                                <label for="sad">sad</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="surprised" name="surprised" value="surprised">
+                                <label for="surprised">surprised</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="fearful" name="fearful" value="fearful">
+                                <label for="fearful">fearful</label>
+                            </div>
+                        </div>
+
+                        <div class="side-by-side">
+                            <div>
+                                <input type="checkbox" id="happy" name="happy" value="happy">
+                                <label for="happy">happy</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="disgust" name="disgust" value="disgust">
+                                <label for="disgust">disgust</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="hopeful" name="hopeful" value="hopeful">
+                                <label for="hopeful">hopeful</label>
+                            </div>
+                        </div>
+
+                        <div class="side-by-side">
+                            <div>
+                                <input type="checkbox" id="angry" name="angry" value="angry">
+                                <label for="angry">angry</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="excited" name="excited" value="excited">
+                                <label for="excited">excited</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="contempt" name="contempt" value="contempt">
+                                <label for="contempt">contempt</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="font-bold">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+    <footer>
+        <a href="disclaimer.html">Disclaimer</a>
+    </footer>
+</html>

@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    margin: 0 auto;
+    color: #343A40;
+    background-color: #FAFAFA;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+    outline: 1px solid #225A96;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.figure-left-align {
+    margin-left: 10px;
+}
+
+.figure-right-align {
+    margin-right: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 22px;
+    color: #225A96;
+}
+
+header > div {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    border: 5px dotted #225A96;
+    padding: 12px;
+}
+
+h2 {
+    display: inline-block;
+    border-bottom: 5px dotted #225A96;
+    margin: 12px auto;
+}
+
+strong {
+    color: #225A96;
+}
+
+a {
+    color: teal;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: 3px underline solid;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    margin: 20px;
+    font-size: 24px;
+}
+
+nav a {
+    font-weight: normal;
+    color: teal;
+}
+
+.resource-type {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.resources {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.warning strong {
+    font-weight: normal;
+    color: #BB2525;
+}
+
+form {
+    margin-top: 20px;
+    display: inline-block;
+    width: 650px;
+}
+
+.center {
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #343A40;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+fieldset legend {
+    width: 24%;
+    padding: 1%;
+    border: 1px solid #343A40;
+    text-align: left;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin: 8px auto;
+}
+
+input {
+    width: 50%;
+}
+
+textarea {
+    width: 50%;
+    height: 80px;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 60%;
+    margin: 18px auto;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 2%;
+    background-color: #FAFAFA;
+    border: 1px solid #343A40;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 2%;
+  }
+
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .side-by-side label {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    text-align: right;
+    margin: 20px;
+  }
+
+  footer > a {
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  ol > li {
+    margin-top: 10px;
+  }
