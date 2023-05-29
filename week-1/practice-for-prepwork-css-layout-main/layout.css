@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+fieldset legend {
+    width: 20%;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+}
+
+input, textarea, select {
+    width: 300px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 1px solid #000000;
+}
+
+
+/* Hide Date Calendar Icon in Chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input:focus::-webkit-datetime-edit{
+    color: #000;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 28px;
+  }
+
+  .elements_side_by_side {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+
+  .elements_side_by_side div input, select {
+    width: 140px;
+  }
+
+  .checkbox_elements_side_by_side {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  button {
+    background-color: white;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 30px;
+  }
+
+  .radio_no_stack div label {
+    width: 50px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .radio_no_stack div input {
+    width: 20px;
+  }
+
+  .radio_no_stack {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 10px;
+    margin-right: 50px;
+    margin-top: -10px;
+  }
+
+  .checkbox_no_stack div label {
+    width: 90px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .checkbox_no_stack div input {
+    width: 20px;
+  }
+
+  .checkbox_no_stack {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+    margin-bottom: 10px;
+  }
+
+.comments label {
+  margin-top: 15px;
+  margin-right: 180px;
+}

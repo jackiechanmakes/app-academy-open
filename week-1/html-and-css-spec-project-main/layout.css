@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-navigation {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#app-academy-home {
+    text-align: center;
+    border: 2px solid black;
+    width: 150px;
+    margin-left: 35px;
+}
+
+#sign-in {
+    margin-left: auto;
+    margin-right: 35px;
+    text-align: center;
+    border: 2px solid black;
+    width: 90px;
+}
+
+.main-navigation {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+}
+
+hr {
+    height: 3px;
+    background: black;
+}
+
+header {
+    width: 730px;
+    margin: 0 auto;
+}
+
+h1 {
+    border: 2px solid black;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.article {
+    width: 730px;
+    margin: 0 auto;
+}
+
+header > div {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+header > div > p {
+    margin: 0 0 0 20px;
+}
+
+.social-media-icons a {
+    border: 2px solid black;
+    padding: 3px 5px 3px 5px;
+}
+
+.social-media-icons {
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+img {
+    width: 730px;
+    margin-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.article p {
+    margin: 0;
+    text-align: center;
+}
+
+.chart {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.more-info-chart {
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.more-info-chart h2 {
+    margin-left: 20px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.left-side-chart h3 {
+    margin: 3px auto 0 50px;
+}
+
+.right-side-chart h3 {
+    margin: 3px 90px 0 auto;
+    text-align: end;
+}
+
+.chart ul {
+    margin: 3px 0 10px 0;
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.chart ul > li {
+    text-indent: -15px;
+}
+.chart ul > li:before {
+    content: "- ";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a img {
+    width: 130px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+footer nav {
+    text-align: end;
+    margin: auto 0 0 0;
+}
+
+footer nav a {
+    margin: 8px;
+}
