@@ -1,0 +1,21 @@
+# Web Development Fundamentals
+
+- JavaScript Fundamentals 
+  - Data Types
+  - Functions
+  - Control Flow
+- Intermediate JavaScript 
+  - Node
+  - Refactoring
+  - HTML/CSS Unit Tests with Cypress Testing Framework 
+- HTML & CSS Fundamentals 
+  - Basics
+  - Forms
+  - Capstone Project
+- Setting Up Work Environment 
+  - Installing Development Tools and Programs
+  - Source Control
+  - Git and Github Workflow
+  - Resolving Common Git and Github Problems
+- Programmer's Mindset 
+  - How to Solve Problems
