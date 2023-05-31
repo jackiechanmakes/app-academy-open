@@ -6,7 +6,7 @@ This repository holds all of my solutions to the coding exercises and projects f
 
 ## FAQ
 - How is the free App Academy Open course different from the paid App Academy course? 
-  The course content is identical. The paid course gives you the option to work through the material in-person on a set schedule with guidance from teaching assistants, while the free course is self-paced and relies on your self-discipline to complete the curriculum well. 
+  - The course content is identical. The paid course gives you the option to work through the material in-person on a set schedule with guidance from teaching assistants, while the free course is self-paced and relies on your self-discipline to complete the curriculum well. 
 
 - Why did you choose App Academy Open instead of the paid version? 
 I am autodidactic and have a learner's heart by nature, so I'm well-versed in learning on my own. This makes the biggest con of lacking guidance from teaching assistants with the free course a non-issue for me. I actually feel struggling through the material on my own has helped me understand the material better with more chances to practice. I know I would've greatly benefitted from being around teachers and peers in-person; however, I ultimately didn't have the financial nor scheduling means to sign up for the paid course but still wanted to learn so I just went for it. I am grateful App Academy has opened up all of their course materials for people in similar situations as mine.
