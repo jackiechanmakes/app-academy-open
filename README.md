@@ -12,7 +12,7 @@ This repository holds all of my solutions to the coding exercises and projects f
   - I am autodidactic and have a learner's heart by nature, so I'm well-versed in learning on my own. This makes the biggest con of lacking guidance from teaching assistants with the free course a non-issue for me. I actually feel struggling through the material on my own has helped me understand the material better with more chances to practice. I know I would've greatly benefitted from being around teachers and peers in-person; however, I ultimately didn't have the financial nor scheduling means to sign up for the paid course but still wanted to learn so I just went for it. I am grateful App Academy has opened up all of their course materials for people in similar situations as mine.
 
 - Did you get help? 
-  - I worked on and solved all coding exercises on my own...with lots of Googling unfamilar concepts and bugs of course! At times after completing the exercises and projects by myself, I would ask software engineering friends for feedback and best practices if I thought it would move the needle in learning. 
+  - I worked on and solved all coding exercises on my own...with lots of Googling unfamilar concepts and bugs of course! At times after first completing the exercises and projects by myself, I would ask software engineering friends for feedback and best practices if I thought it would move the needle in learning. 
 
 - What does this repository contain? 
   - My solutions to all of App Academy's coding exercises and project challenges. I did not skip reading, watching, or practicing any of the course material modules. 
