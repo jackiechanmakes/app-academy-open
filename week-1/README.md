@@ -19,3 +19,4 @@
   - Resolving Common Git and Github Problems
 - Programmer's Mindset 
   - How to Solve Problems
+  - How to Learn
