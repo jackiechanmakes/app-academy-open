@@ -1,6 +1,7 @@
 # JavaScript Fundamentals
 
 **This repository contains my solutions to all of App Academy Open's Week 2 coding exercises and projects, which cover the following topics:**
+
 - JavaScript Foundations
   - Expressions
   - Data Types
