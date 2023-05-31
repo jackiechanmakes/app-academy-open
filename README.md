@@ -18,7 +18,7 @@ This repository holds all of my solutions to the coding exercises and projects f
   - My solutions to all of App Academy's coding exercises and project challenges. I did not skip reading, watching, or practicing any of the course material modules. 
 
 - What is your background? 
-  - I graduated from Caltech with honors with a B.S. in Chemical Engineering (Process Systems). I've also earned a Software Engineering Certificate with honors from UCSC.
+  - I graduated from Caltech with honors with a B.S. in Chemical Engineering (Process Systems). I've also earned a Software Engineering Certificate with honors as part of a 2-year program from UCSC.
 
 - Where are your personal projects? 
   - They are in other repositories. Check them out if you have a moment!
