@@ -1,6 +1,7 @@
 # Web Development Fundamentals
 
-**This repository contains my solutions to all of App Academy Open's Week 1 coding exercises and projects that cover the following topics:**
+**This repository contains my solutions to all of App Academy Open's Week 1 coding exercises and projects, which cover the following topics:**
+
 - JavaScript Fundamentals 
   - Data Types
   - Functions
