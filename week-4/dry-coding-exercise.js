@@ -1,4 +1,4 @@
-// Instructions: debug code that's broken
+  // Instructions: debug code that's broken
 // Solution: (see below code)
 const fourIncreasing = function(nums) {
     for (let i = 0; i < nums.length - 3; i++) {
