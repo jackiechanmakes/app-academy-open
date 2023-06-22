@@ -44,8 +44,13 @@ class Room {
     }
 
     getItemByName(name) {
+        for (let i = 0; i < this.items.length; i++) {
+            let item = this.items[i];
 
-        // Fill this in
+            if (item.name === name) {
+                return item;
+            }
+        }
     }
 
 }
