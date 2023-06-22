@@ -3,6 +3,7 @@ const { Item } = require('./item');
 const { Food } = require('./food');
 
 class World {
+
     constructor() {
         this.rooms = {};
     }
