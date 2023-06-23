@@ -52,14 +52,26 @@ class Room {
   }
 
   getItemByName(name) {
+    for (let i = 0; i < this.items.length; i++) {
+      let item = this.items[i];
 
-    // Fill this in
+      if (item.name === name) {
+        return item;
+      }
+    }
 
   }
 
   getEnemyByName(name) {
+    let enemies = getEnemies();
+    for (let i = 0; i < enemies.length; i++) {
+      let enemy = enemies[i];
 
-    // Fill this in
+      if (enemy.name === name) {
+        return enemy;
+      }
+    }
+  }
 
 }
 

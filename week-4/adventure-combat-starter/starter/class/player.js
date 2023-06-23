@@ -1,6 +1,7 @@
 const {Character} = require('./character');
 const {Enemy} = require('./enemy');
 const {Food} = require('./food');
+const {World} = require('./world');
 
 class Player extends Character {
 
@@ -34,33 +35,53 @@ class Player extends Character {
   }
 
   takeItem(itemName) {
-
-    // Fill this in
-
+    for (let i = 0; i < this.currentRoom.items.length; i++) {
+      let item = this.currentRoom.items[i];
+      if (item.name === itemName){
+          this.items.push(item);
+          this.currentRoom.items.splice(i, 1);
+      }
+    }
   }
 
   dropItem(itemName) {
-
-    // Fill this in
-
+    for (let i = 0; i < this.items.length; i++) {
+      let item = this.items[i];
+      if (item.name === itemName){
+          this.currentRoom.items.push(item);
+          this.items.splice(i, 1);
+      }
+    }
   }
 
   eatItem(itemName) {
-
-    // Fill this in
-
+    for (let i = 0; i < this.items.length; i++) {
+      let item = this.items[i];
+      if (item.name === itemName && item instanceof Food){
+          this.items.splice(i, 1);
+      }
+    }
   }
 
   getItemByName(name) {
+    for (let i = 0; i < this.items.length; i++) {
+      let item = this.items[i];
 
-    // Fill this in
-
+      if (item.name === name) {
+        return item;
+      }
+    }
   }
 
   hit(name) {
-
-    // Fill this in
-
+    let enemies = World.getEnemiesInRoom(this.currentRoom);
+    for (let i = 0; i < enemies.length; i++) {
+      let enemy = enemies[i];
+      if (enemy.name === name) {
+        enemy.setPlayer(this);
+        enemy.attackTarget = this;
+      }
+    }
   }
 
   die() {
