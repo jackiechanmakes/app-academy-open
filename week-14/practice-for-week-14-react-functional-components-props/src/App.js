@@ -1,10 +1,12 @@
-import Showcase from './Showcase';
-import './App.css';
+import Showcase from "./Showcase";
+import BaseStats from "./BaseStats";
+import "./App.css";
 
 function App() {
   return (
-    <div className='main-wrapper background'>
+    <div className="main-wrapper background">
       <Showcase />
+      <BaseStats />
     </div>
   );
 }
