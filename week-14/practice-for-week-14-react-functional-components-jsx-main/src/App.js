@@ -1,8 +1,9 @@
 import Showcase from './Showcase.js';
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='background'>
       <Showcase />
     </div>
   );
