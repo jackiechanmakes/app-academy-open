@@ -12,10 +12,16 @@ function App() {
     speed: 45
   };
 
+  function handleClick() {
+    alert(
+      `Special Stats\n\tSpecial Attack: ${baseStats.spAttack}\n\tSpecial Defense: ${baseStats.spDef}`
+    );
+  }
+
   return (
     <div className="main-wrapper background">
       <Showcase />
-      <BaseStats stats={baseStats}/>
+      <BaseStats hp={baseStats['hp']} attack={baseStats['attack']} defense={baseStats['defense']} speed={baseStats['speed']} clicker={handleClick} />
     </div>
   );
 }
