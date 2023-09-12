@@ -1,8 +1,13 @@
 import './PokeMoveCard.css'
 
-function PokeMoveCard() {
+function PokeMoveCard( {id, move, type, level }) {
     return (
-        <li>PokeMoveCard Component</li>
+        <li className='poke-move-card'>
+          <h3>Move {id}</h3>
+          <h4 style={{ padding: 10 }}>{move.toUpperCase()}</h4>
+          <p>Type: {type}</p>
+          <p>Level: {level}</p>
+        </li>
     );
 }
 
